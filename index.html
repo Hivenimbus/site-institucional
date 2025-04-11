@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidade NIMBUS - Excelência em Educação</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>NIMBUS</h1>
+                <span>UNIVERSIDADE</span>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#home" class="active">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#docentes">Docentes</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <div class="mobile-menu-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Bem-vindo à Universidade NIMBUS</h1>
+                <h2>Transformando o futuro através da educação</h2>
+                <p>Uma instituição de excelência comprometida com a formação de profissionais inovadores e cidadãos conscientes.</p>
+                <div class="hero-buttons">
+                    <a href="#cursos" class="btn btn-primary">Conheça nossos cursos</a>
+                    <a href="#contato" class="btn btn-secondary">Entre em contato</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="destaques" class="destaques">
+        <div class="container">
+            <div class="destaques-grid">
+                <div class="destaque-item">
+                    <div class="icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Excelência Acadêmica</h3>
+                    <p>Programas de graduação e pós-graduação reconhecidos nacionalmente pela qualidade e inovação.</p>
+                </div>
+                <div class="destaque-item">
+                    <div class="icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Pesquisa Avançada</h3>
+                    <p>Centros de pesquisa de ponta desenvolvendo soluções para os desafios globais.</p>
+                </div>
+                <div class="destaque-item">
+                    <div class="icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Comunidade Diversa</h3>
+                    <p>Ambiente inclusivo que valoriza a diversidade cultural e promove o respeito mútuo.</p>
+                </div>
+                <div class="destaque-item">
+                    <div class="icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Conexões Globais</h3>
+                    <p>Parcerias internacionais que proporcionam experiências de intercâmbio e colaboração mundial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre a NIMBUS</h2>
+                <p>Conheça nossa história e missão</p>
+            </div>
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <h3>Nossa História</h3>
+                    <p>Fundada em 1985, a Universidade NIMBUS nasceu do sonho de oferecer educação de qualidade e acessível. Ao longo de mais de três décadas, construímos uma reputação de excelência acadêmica e compromisso com a inovação.</p>
+                    
+                    <h3>Nossa Missão</h3>
+                    <p>Formar profissionais éticos, competentes e comprometidos com o desenvolvimento sustentável da sociedade, através de ensino de qualidade, pesquisa inovadora e extensão transformadora.</p>
+                    
+                    <h3>Nossos Valores</h3>
+                    <ul>
+                        <li><strong>Excelência:</strong> Busca constante pela qualidade em todas as atividades</li>
+                        <li><strong>Inovação:</strong> Estímulo ao pensamento criativo e soluções disruptivas</li>
+                        <li><strong>Inclusão:</strong> Valorização da diversidade e promoção de oportunidades para todos</li>
+                        <li><strong>Sustentabilidade:</strong> Compromisso com práticas ambientalmente responsáveis</li>
+                        <li><strong>Ética:</strong> Conduta baseada em princípios morais e transparência</li>
+                    </ul>
+                </div>
+                <div class="sobre-image">
+                    <img src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1686&q=80" alt="Campus da Universidade NIMBUS">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cursos" class="cursos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Cursos</h2>
+                <p>Excelência acadêmica em diversas áreas do conhecimento</p>
+            </div>
+            
+            <div class="cursos-tabs">
+                <div class="tabs-nav">
+                    <button class="tab-btn active" data-target="graduacao">Graduação</button>
+                    <button class="tab-btn" data-target="pos-graduacao">Pós-Graduação</button>
+                    <button class="tab-btn" data-target="extensao">Extensão</button>
+                </div>
+                
+                <div class="tabs-content">
+                    <div id="graduacao" class="tab-content active">
+                        <div class="cursos-grid">
+                            <div class="curso-card">
+                                <div class="curso-img">
+                                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Engenharia de Computação">
+                                </div>
+                                <div class="curso-info">
+                                    <h3>Engenharia de Computação</h3>
+                                    <p>Forme-se em uma das áreas mais promissoras do mercado, desenvolvendo soluções tecnológicas inovadoras.</p>
+                                    <ul>
+                                        <li><i class="fas fa-clock"></i> Duração: 5 anos</li>
+                                        <li><i class="fas fa-users"></i> Vagas: 60</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-outline">Saiba mais</a>
+                                </div>
+                            </div>
+                            
+                            <div class="curso-card">
+                                <div class="curso-img">
+                                    <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Medicina">
+                                </div>
+                                <div class="curso-info">
+                                    <h3>Medicina</h3>
+                                    <p>Programa de excelência que forma médicos humanistas com sólida base científica e técnica.</p>
+                                    <ul>
+                                        <li><i class="fas fa-clock"></i> Duração: 6 anos</li>
+                                        <li><i class="fas fa-users"></i> Vagas: 50</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-outline">Saiba mais</a>
+                                </div>
+                            </div>
+                            
+                            <div class="curso-card">
+                                <div class="curso-img">
+                                    <img src="https://images.unsplash.com/photo-1589391886645-d51941baf7fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Direito">
+                                </div>
+                                <div class="curso-info">
+                                    <h3>Direito</h3>
+                                    <p>Formação jurídica completa com ênfase em prática e preparação para as carreiras públicas.</p>
+                                    <ul>
+                                        <li><i class="fas fa-clock"></i> Duração: 5 anos</li>
+                                        <li><i class="fas fa-users"></i> Vagas: 80</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-outline">Saiba mais</a>
+                                </div>
+                            </div>
+                            
+                            <div class="curso-card">
+                                <div class="curso-img">
+                                    <img src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1738&q=80" alt="Administração">
+                                </div>
+                                <div class="curso-info">
+                                    <h3>Administração</h3>
+                                    <p>Desenvolva habilidades de gestão e liderança para atuar em organizações de diversos setores.</p>
+                                    <ul>
+                                        <li><i class="fas fa-clock"></i> Duração: 4 anos</li>
+                                        <li><i class="fas fa-users"></i> Vagas: 100</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-outline">Saiba mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="pos-graduacao" class="tab-content">
+                        <div class="cursos-grid">
+                            <div class="curso-card">
+                                <div class="curso-img">
+                                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="MBA">
+                                </div>
+                                <div class="curso-info">
+                                    <h3>MBA em Gestão Estratégica</h3>
+                                    <p>Programa executivo que desenvolve competências avançadas em gestão e liderança.</p>
+                                    <ul>
+                                        <li><i class="fas fa-clock"></i> Duração: 18 meses</li>
+                                        <li><i class="fas fa-graduation-cap"></i> Modalidade: Presencial e EAD</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-outline">Saiba mais</a>
+                                </div>
+                            </div>
+                            
+                            <div class="curso-card">
+                                <div class="curso-img">
+                                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Mestrado">
+                                </div>
+                                <div class="curso-info">
+                                    <h3>Mestrado em Ciência da Computação</h3>
+                                    <p>Pesquisa avançada em inteligência artificial, segurança cibernética e computação de alto desempenho.</p>
+                                    <ul>
+                                        <li><i class="fas fa-clock"></i> Duração: 24 meses</li>
+                                        <li><i class="fas fa-graduation-cap"></i> Modalidade: Presencial</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-outline">Saiba mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="extensao" class="tab-content">
+                        <div class="cursos-grid">
+                            <div class="curso-card">
+                                <div class="curso-img">
+                                    <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1742&q=80" alt="Idiomas">
+                                </div>
+                                <div class="curso-info">
+                                    <h3>Programa de Idiomas</h3>
+                                    <p>Cursos de inglês, espanhol, francês, alemão e mandarim para todos os níveis.</p>
+                                    <ul>
+                                        <li><i class="fas fa-clock"></i> Duração: Modular</li>
+                                        <li><i class="fas fa-graduation-cap"></i> Modalidade: Presencial e EAD</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-outline">Saiba mais</a>
+                                </div>
+                            </div>
+                            
+                            <div class="curso-card">
+                                <div class="curso-img">
+                                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1744&q=80" alt="Tecnologia">
+                                </div>
+                                <div class="curso-info">
+                                    <h3>Desenvolvimento Web Full Stack</h3>
+                                    <p>Aprenda as tecnologias mais demandadas do mercado e torne-se um desenvolvedor completo.</p>
+                                    <ul>
+                                        <li><i class="fas fa-clock"></i> Duração: 6 meses</li>
+                                        <li><i class="fas fa-graduation-cap"></i> Modalidade: EAD</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-outline">Saiba mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="docentes" class="docentes">
+        <div class="container">
+            <div class="section-header">
+                <h2>Corpo Docente</h2>
+                <p>Conheça nossos professores de excelência</p>
+            </div>
+            
+            <div class="docentes-slider">
+                <div class="docente-card">
+                    <div class="docente-img">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Professor">
+                    </div>
+                    <div class="docente-info">
+                        <h3>Dr. Carlos Mendes</h3>
+                        <p class="cargo">Diretor da Faculdade de Engenharia</p>
+                        <p class="bio">PhD em Engenharia Elétrica pela MIT, com mais de 20 anos de experiência em pesquisa e docência.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                            <a href="#"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="docente-card">
+                    <div class="docente-img">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80" alt="Professora">
+                    </div>
+                    <div class="docente-info">
+                        <h3>Dra. Ana Silva</h3>
+                        <p class="cargo">Coordenadora do Programa de Medicina</p>
+                        <p class="bio">Médica cardiologista com doutorado em Harvard e pesquisadora reconhecida internacionalmente.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                            <a href="#"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="docente-card">
+                    <div class="docente-img">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Professor">
+                    </div>
+                    <div class="docente-info">
+                        <h3>Dr. Roberto Almeida</h3>
+                        <p class="cargo">Professor de Direito Constitucional</p>
+                        <p class="bio">Jurista renomado com vasta experiência em tribunais superiores e autor de obras de referência.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                            <a href="#"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="docente-card">
+                    <div class="docente-img">
+                        <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Professora">
+                    </div>
+                    <div class="docente-info">
+                        <h3>Dra. Juliana Costa</h3>
+                        <p class="cargo">Professora de Administração</p>
+                        <p class="bio">Especialista em gestão de inovação com experiência executiva em empresas multinacionais.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                            <a href="#"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slider-controls">
+                <button id="prev-docente" class="slider-btn"><i class="fas fa-chevron-left"></i></button>
+                <button id="next-docente" class="slider-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="eventos" class="eventos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Eventos e Notícias</h2>
+                <p>Fique por dentro do que acontece na NIMBUS</p>
+            </div>
+            
+            <div class="eventos-grid">
+                <div class="evento-card">
+                    <div class="evento-date">
+                        <span class="day">15</span>
+                        <span class="month">JUN</span>
+                    </div>
+                    <div class="evento-img">
+                        <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Evento de Tecnologia">
+                    </div>
+                    <div class="evento-info">
+                        <h3>Simpósio de Inteligência Artificial</h3>
+                        <p class="evento-local"><i class="fas fa-map-marker-alt"></i> Auditório Central</p>
+                        <p class="evento-desc">Especialistas nacionais e internacionais discutem os avanços e desafios da IA.</p>
+                        <a href="#" class="btn btn-outline">Inscreva-se</a>
+                    </div>
+                </div>
+                
+                <div class="evento-card">
+                    <div class="evento-date">
+                        <span class="day">22</span>
+                        <span class="month">JUL</span>
+                    </div>
+                    <div class="evento-img">
+                        <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Feira de Carreiras">
+                    </div>
+                    <div class="evento-info">
+                        <h3>Feira de Carreiras 2023</h3>
+                        <p class="evento-local"><i class="fas fa-map-marker-alt"></i> Centro de Convenções</p>
+                        <p class="evento-desc">Oportunidade para conectar estudantes com as melhores empresas do mercado.</p>
+                        <a href="#" class="btn btn-outline">Saiba mais</a>
+                    </div>
+                </div>
+                
+                <div class="evento-card">
+                    <div class="evento-date">
+                        <span class="day">10</span>
+                        <span class="month">AGO</span>
+                    </div>
+                    <div class="evento-img">
+                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Congresso de Medicina">
+                    </div>
+                    <div class="evento-info">
+                        <h3>Congresso Internacional de Medicina</h3>
+                        <p class="evento-local"><i class="fas fa-map-marker-alt"></i> Hospital Universitário</p>
+                        <p class="evento-desc">Apresentação de pesquisas inovadoras e debates sobre o futuro da saúde.</p>
+                        <a href="#" class="btn btn-outline">Inscreva-se</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="news-section">
+                <h3>Últimas Notícias</h3>
+                <div class="news-list">
+                    <div class="news-item">
+                        <span class="news-date">05/06/2023</span>
+                        <h4>NIMBUS é reconhecida como uma das melhores universidades do país</h4>
+                        <p>Pelo quinto ano consecutivo, nossa instituição figura entre as 10 melhores no ranking nacional.</p>
+                        <a href="#" class="read-more">Leia mais</a>
+                    </div>
+                    
+                    <div class="news-item">
+                        <span class="news-date">28/05/2023</span>
+                        <h4>Pesquisadores da NIMBUS desenvolvem tecnologia sustentável premiada</h4>
+                        <p>Projeto de energia renovável recebe prêmio internacional de inovação.</p>
+                        <a href="#" class="read-more">Leia mais</a>
+                    </div>
+                    
+                    <div class="news-item">
+                        <span class="news-date">15/05/2023</span>
+                        <h4>Abertas as inscrições para o vestibular 2024</h4>
+                        <p>Candidatos podem se inscrever até 30 de setembro para mais de 50 cursos de graduação.</p>
+                        <a href="#" class="read-more">Leia mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <p>Estamos à disposição para atender você</p>
+            </div>
+            
+            <div class="contato-content">
+                <div class="contato-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Endereço</h3>
+                            <p>Av. Universitária, 1000<br>Centro, São Paulo - SP<br>CEP: 01000-000</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Telefone</h3>
+                            <p>+55 (11) 3000-0000<br>+55 (11) 3000-0001</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>E-mail</h3>
+                            <p>contato@nimbus.edu.br<br>secretaria@nimbus.edu.br</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-media">
+                        <h3>Redes Sociais</h3>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contato-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" id="telefone" name="telefone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="assunto">Assunto</label>
+                            <select id="assunto" name="assunto" required>
+                                <option value="">Selecione um assunto</option>
+                                <option value="informacoes">Informações sobre cursos</option>
+                                <option value="matricula">Matrícula</option>
+                                <option value="financeiro">Financeiro</option>
+                                <option value="ouvidoria">Ouvidoria</option>
+                                <option value="outros">Outros</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>NIMBUS</h2>
+                    <span>UNIVERSIDADE</span>
+                    <p>Transformando o futuro através da educação desde 1985.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h3>Links Rápidos</h3>
+                        <ul>
+                            <li><a href="#home">Início</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#cursos">Cursos</a></li>
+                            <li><a href="#docentes">Docentes</a></li>
+                            <li><a href="#eventos">Eventos</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h3>Cursos</h3>
+                        <ul>
+                            <li><a href="#">Graduação</a></li>
+                            <li><a href="#">Pós-Graduação</a></li>
+                            <li><a href="#">Mestrado e Doutorado</a></li>
+                            <li><a href="#">Extensão</a></li>
+                            <li><a href="#">EAD</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h3>Informações</h3>
+                        <ul>
+                            <li><a href="#">Processo Seletivo</a></li>
+                            <li><a href="#">Bolsas e Financiamentos</a></li>
+                            <li><a href="#">Calendário Acadêmico</a></li>
+                            <li><a href="#">Biblioteca</a></li>
+                            <li><a href="#">Portal do Aluno</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Universidade NIMBUS. Todos os direitos reservados. | Desenvolvido por <a href="#">HiveNimbus</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
